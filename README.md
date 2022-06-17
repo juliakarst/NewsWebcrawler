@@ -4,4 +4,4 @@ Ein Webcrawler, welcher kostenfreie Nachrichtenartikel über China von drei deut
 
 Die Pfadangaben müssen modifiziert werden.
 
-Die Datei all_articles.csv bildet die Grundlage für eine Nachrichtenanalyse mittels Latent Dirichlet Allocation (siehe juliakarst/NewsLDA).
+Die Datei all_articles.csv bildet die Grundlage für eine Nachrichtenanalyse mittels Latent Dirichlet Allocation (siehe  https://github.com/juliakarst/NewsLDA.).
