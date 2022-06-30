@@ -3,6 +3,7 @@
 Ein Webcrawler, welcher kostenfreie Nachrichtenartikel über China von drei deutschen Zeitungen sammelt (im Zeitraum Jan. 2020 - Dez. 2021).
 
 Ausführen der Dateien im Terminal: scrapy runspider tagesspiegelspider.py -o result.csv (analog für alle Spider)
+
 Die Pfadangaben müssen modifiziert werden.
 Vor dem Ausführen muss im jeweiligen Programm die gewünschte Kategorie gewählt werden.
 
