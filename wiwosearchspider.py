@@ -7,7 +7,7 @@ class WiWoSearchSpider(scrapy.Spider):
     """Diese Klasse scrapt wiwo.de mit Suchbegriff "China" und Filter "Artikel"""
 
     # für den Zeitraum ab 2020 werden nur die ersten 400 Seiten benötigt
-    # es wurde in einzelne Abschnitte von je 25 Seiten aufgesplittet um nicht zu viele Anfragen an die Webseite zu stellen
+    # es wurde in einzelne Abschnitte von je 25 Seiten aufgesplittet um die Laufzeit zu verkürzen und nicht zu viele Anfragen an die Webseite zu stellen
     category = {"til25": {"https://www.wiwo.de/suche/?p19868864=1&sw=china&search-period=&article=article"},
                 "til50": {"https://www.wiwo.de/suche/?p19868864=25&sw=china&search-period=&article=article"},
                 "til75": {"https://www.wiwo.de/suche/?p19868864=50&sw=china&search-period=&article=article"},
