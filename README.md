@@ -1,6 +1,7 @@
 # NewsWebcrawler
 
 Ein Webcrawler, welcher kostenfreie Nachrichtenartikel über China von drei deutschen Zeitungen sammelt (im Zeitraum Jan. 2020 - Dez. 2021).
+Der Webcrawler entstand Ende März 2022. Aufgrund der dynamischen Webseitenstruktur stimmen einzelne Angaben evtl. nicht mehr überein.
 
 Ausführen der Dateien im Terminal: scrapy runspider tagesspiegelspider.py -o result.csv (analog für alle Spider)
 
