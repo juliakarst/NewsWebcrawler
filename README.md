@@ -6,5 +6,6 @@ Ausführen der Dateien im Terminal: scrapy runspider tagesspiegelspider.py -o re
 
 Die Pfadangaben müssen modifiziert werden.
 Vor dem Ausführen muss im jeweiligen Programm die gewünschte Kategorie gewählt werden.
+Für SD: Angaben in Variable 'suffix' anpassen. Für WW: Abbruchbedingung anpassen.
 
 Die Datei all_articles.csv bildet die Grundlage für eine Nachrichtenanalyse mittels Latent Dirichlet Allocation (siehe  https://github.com/juliakarst/NewsLDA.).
