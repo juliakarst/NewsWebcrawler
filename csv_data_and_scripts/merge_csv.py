@@ -5,6 +5,7 @@ import glob
 header = []
 data = []
 
+#list of csv-files that will be merged
 file_list = glob.glob('/Users/juliakarst/PycharmProjects/NewsWebcrawler/sueddeutsche/*.csv')
 
 
