@@ -6,7 +6,7 @@ import scrapy
 class TSpider(scrapy.Spider):
     """Diese Klasse scrapt die Themenseite "China" von tagesspiegel.de """
 
-
+    # es wird nur der Themenschwerpunkt gescrapt, bei Scrapen aller Artikel kann um weitere Kategorien ergänzt werden
     category = {"ThemaChina": {"https://www.tagesspiegel.de/themen/china/"},
                 }
 
