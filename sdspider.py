@@ -7,7 +7,7 @@ class SDSpider(scrapy.Spider):
     """Diese Klasse scrapt die DPA-Artikel zum Suchbegriff "China" auf süddeutsche.de """
 
     # jede Kategorie entspricht einem Monat
-    category = {"Jan22": {"https://www.sueddeutsche.de/news?search=china&sort=date&all%5B%5D=dep&typ%5B%5D=article&sys%5B%5D=dpa&catdpa%5B%5D=alles&time=2022-01-01T00%3A00%2F2022-01-31T23%3A59&startDate=10.01.2022&endDate=19.01.2022"},
+    category = {
                 "Dec21": {"https://www.sueddeutsche.de/news?search=china&sort=date&all%5B%5D=dep&typ%5B%5D=article&sys%5B%5D=dpa&catdpa%5B%5D=alles&time=2022-02-21T00%3A00%2F2022-02-21T23%3A59&startDate=01.12.2021&endDate=31.12.2021"},
                 "Nov21": {"https://www.sueddeutsche.de/news?search=china&sort=date&all%5B%5D=dep&typ%5B%5D=article&sys%5B%5D=dpa&catdpa%5B%5D=alles&time=2021-12-01T00%3A00%2F2021-12-31T23%3A59&startDate=01.11.2021&endDate=30.11.2021"},
                 "Oct21": {"https://www.sueddeutsche.de/news?search=china&sort=date&all%5B%5D=dep&typ%5B%5D=article&sys%5B%5D=dpa&catdpa%5B%5D=alles&time=2021-11-01T00%3A00%2F2021-11-30T23%3A59&startDate=01.10.2021&endDate=31.10.2021"},
